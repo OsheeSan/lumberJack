@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843D0D792AA5F57B003947D8 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D0D782AA5F57B003947D8 /* Vibration.swift */; };
+		849998D42AA09D5400482470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849998D32AA09D5400482470 /* AppDelegate.swift */; };
+		849998DA2AA09D5400482470 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849998D92AA09D5400482470 /* GameScene.swift */; };
+		849998DC2AA09D5400482470 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849998DB2AA09D5400482470 /* GameViewController.swift */; };
+		849998DF2AA09D5400482470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849998DD2AA09D5400482470 /* Main.storyboard */; };
+		849998E12AA09D5600482470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849998E02AA09D5600482470 /* Assets.xcassets */; };
+		849998E42AA09D5600482470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849998E22AA09D5600482470 /* LaunchScreen.storyboard */; };
+		84D711002AA71FDB007A4AB5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D710FF2AA71FDB007A4AB5 /* MenuViewController.swift */; };
+		84D711022AA724AD007A4AB5 /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D711012AA724AD007A4AB5 /* InstructionViewController.swift */; };
+		84D711512AA9EF74007A4AB5 /* RecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D711502AA9EF74007A4AB5 /* RecordManager.swift */; };
+		84D711532AA9F06B007A4AB5 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D711522AA9F06B007A4AB5 /* RecordsViewController.swift */; };
+		84D711552AA9FBC8007A4AB5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D711542AA9FBC8007A4AB5 /* CustomTableViewCell.swift */; };
+		84D711572AAA032C007A4AB5 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84D711562AAA032C007A4AB5 /* background.mp3 */; };
+		84D711592AAA033E007A4AB5 /* record.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84D711582AAA033E007A4AB5 /* record.mp3 */; };
+		84D7115B2AAA034D007A4AB5 /* ough.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84D7115A2AAA034D007A4AB5 /* ough.mp3 */; };
+		84D7115D2AAA035A007A4AB5 /* cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84D7115C2AAA035A007A4AB5 /* cut.mp3 */; };
+		84D711622AAA0A21007A4AB5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D711612AAA0A21007A4AB5 /* LoadingViewController.swift */; };
+		84D711642AAA0A2A007A4AB5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D711632AAA0A2A007A4AB5 /* WebViewController.swift */; };
+		866BDD0FE2060994E6AC49B2 /* Pods_lumberJack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B89E1857DA632A30676D0 /* Pods_lumberJack.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		224B89E1857DA632A30676D0 /* Pods_lumberJack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lumberJack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED3E47F627EFF27EF66E218 /* Pods-lumberJack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lumberJack.release.xcconfig"; path = "Target Support Files/Pods-lumberJack/Pods-lumberJack.release.xcconfig"; sourceTree = "<group>"; };
+		843D0D782AA5F57B003947D8 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		849998D02AA09D5400482470 /* lumberJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lumberJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849998D32AA09D5400482470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849998D92AA09D5400482470 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		849998DB2AA09D5400482470 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		849998DE2AA09D5400482470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849998E02AA09D5600482470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849998E32AA09D5600482470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D710FF2AA71FDB007A4AB5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		84D711012AA724AD007A4AB5 /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		84D711502AA9EF74007A4AB5 /* RecordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordManager.swift; sourceTree = "<group>"; };
+		84D711522AA9F06B007A4AB5 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		84D711542AA9FBC8007A4AB5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		84D711562AAA032C007A4AB5 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		84D711582AAA033E007A4AB5 /* record.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = record.mp3; sourceTree = "<group>"; };
+		84D7115A2AAA034D007A4AB5 /* ough.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ough.mp3; sourceTree = "<group>"; };
+		84D7115C2AAA035A007A4AB5 /* cut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cut.mp3; sourceTree = "<group>"; };
+		84D7115E2AAA0834007A4AB5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D711602AAA0885007A4AB5 /* lumberJack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lumberJack.entitlements; sourceTree = "<group>"; };
+		84D711612AAA0A21007A4AB5 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		84D711632AAA0A2A007A4AB5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BDC601470F40DB2CA781587F /* Pods-lumberJack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lumberJack.debug.xcconfig"; path = "Target Support Files/Pods-lumberJack/Pods-lumberJack.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849998CD2AA09D5400482470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866BDD0FE2060994E6AC49B2 /* Pods_lumberJack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849998C72AA09D5400482470 = {
+			isa = PBXGroup;
+			children = (
+				849998D22AA09D5400482470 /* lumberJack */,
+				849998D12AA09D5400482470 /* Products */,
+				DE942305619548AACA402132 /* Pods */,
+				A984F9E6FB18A02B3F7FD8A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		849998D12AA09D5400482470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849998D02AA09D5400482470 /* lumberJack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849998D22AA09D5400482470 /* lumberJack */ = {
+			isa = PBXGroup;
+			children = (
+				84D711602AAA0885007A4AB5 /* lumberJack.entitlements */,
+				84D7115E2AAA0834007A4AB5 /* Info.plist */,
+				84D711062AA72576007A4AB5 /* Resources */,
+				84D711052AA724D5007A4AB5 /* Views */,
+				84D711042AA724CD007A4AB5 /* Scenes */,
+				84D711032AA724C1007A4AB5 /* Controllers */,
+				84D711502AA9EF74007A4AB5 /* RecordManager.swift */,
+			);
+			path = lumberJack;
+			sourceTree = "<group>";
+		};
+		84D711032AA724C1007A4AB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84D710FF2AA71FDB007A4AB5 /* MenuViewController.swift */,
+				84D711012AA724AD007A4AB5 /* InstructionViewController.swift */,
+				849998DB2AA09D5400482470 /* GameViewController.swift */,
+				84D711522AA9F06B007A4AB5 /* RecordsViewController.swift */,
+				84D711612AAA0A21007A4AB5 /* LoadingViewController.swift */,
+				84D711632AAA0A2A007A4AB5 /* WebViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84D711042AA724CD007A4AB5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				849998D92AA09D5400482470 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		84D711052AA724D5007A4AB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				849998DD2AA09D5400482470 /* Main.storyboard */,
+				849998E02AA09D5600482470 /* Assets.xcassets */,
+				849998E22AA09D5600482470 /* LaunchScreen.storyboard */,
+				84D711542AA9FBC8007A4AB5 /* CustomTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84D711062AA72576007A4AB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				849998D32AA09D5400482470 /* AppDelegate.swift */,
+				843D0D782AA5F57B003947D8 /* Vibration.swift */,
+				84D711562AAA032C007A4AB5 /* background.mp3 */,
+				84D7115A2AAA034D007A4AB5 /* ough.mp3 */,
+				84D7115C2AAA035A007A4AB5 /* cut.mp3 */,
+				84D711582AAA033E007A4AB5 /* record.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A984F9E6FB18A02B3F7FD8A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				224B89E1857DA632A30676D0 /* Pods_lumberJack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE942305619548AACA402132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC601470F40DB2CA781587F /* Pods-lumberJack.debug.xcconfig */,
+				4ED3E47F627EFF27EF66E218 /* Pods-lumberJack.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849998CF2AA09D5400482470 /* lumberJack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849998E72AA09D5600482470 /* Build configuration list for PBXNativeTarget "lumberJack" */;
+			buildPhases = (
+				8EA9DC7B7CB14AAA0498F1C6 /* [CP] Check Pods Manifest.lock */,
+				849998CC2AA09D5400482470 /* Sources */,
+				849998CD2AA09D5400482470 /* Frameworks */,
+				849998CE2AA09D5400482470 /* Resources */,
+				CFA831389F1A5905881FBF2C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lumberJack;
+			productName = lumberJack;
+			productReference = 849998D02AA09D5400482470 /* lumberJack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849998C82AA09D5400482470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					849998CF2AA09D5400482470 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 849998CB2AA09D5400482470 /* Build configuration list for PBXProject "lumberJack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849998C72AA09D5400482470;
+			productRefGroup = 849998D12AA09D5400482470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849998CF2AA09D5400482470 /* lumberJack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849998CE2AA09D5400482470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849998DF2AA09D5400482470 /* Main.storyboard in Resources */,
+				84D7115B2AAA034D007A4AB5 /* ough.mp3 in Resources */,
+				849998E12AA09D5600482470 /* Assets.xcassets in Resources */,
+				849998E42AA09D5600482470 /* LaunchScreen.storyboard in Resources */,
+				84D711572AAA032C007A4AB5 /* background.mp3 in Resources */,
+				84D711592AAA033E007A4AB5 /* record.mp3 in Resources */,
+				84D7115D2AAA035A007A4AB5 /* cut.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EA9DC7B7CB14AAA0498F1C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lumberJack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA831389F1A5905881FBF2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lumberJack/Pods-lumberJack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lumberJack/Pods-lumberJack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lumberJack/Pods-lumberJack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849998CC2AA09D5400482470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D711552AA9FBC8007A4AB5 /* CustomTableViewCell.swift in Sources */,
+				84D711642AAA0A2A007A4AB5 /* WebViewController.swift in Sources */,
+				849998DA2AA09D5400482470 /* GameScene.swift in Sources */,
+				84D711002AA71FDB007A4AB5 /* MenuViewController.swift in Sources */,
+				84D711022AA724AD007A4AB5 /* InstructionViewController.swift in Sources */,
+				849998DC2AA09D5400482470 /* GameViewController.swift in Sources */,
+				843D0D792AA5F57B003947D8 /* Vibration.swift in Sources */,
+				84D711512AA9EF74007A4AB5 /* RecordManager.swift in Sources */,
+				84D711622AAA0A21007A4AB5 /* LoadingViewController.swift in Sources */,
+				849998D42AA09D5400482470 /* AppDelegate.swift in Sources */,
+				84D711532AA9F06B007A4AB5 /* RecordsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		849998DD2AA09D5400482470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849998DE2AA09D5400482470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849998E22AA09D5600482470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849998E32AA09D5600482470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849998E52AA09D5600482470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849998E62AA09D5600482470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849998E82AA09D5600482470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC601470F40DB2CA781587F /* Pods-lumberJack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lumberJack/lumberJack.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4282LY9ZMJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Applications/SwiftProjects/My/Office/lumberJack/lumberJack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Woodmen Bananza";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannastn.lumberJack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = lumberjackpp;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		849998E92AA09D5600482470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED3E47F627EFF27EF66E218 /* Pods-lumberJack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lumberJack/lumberJack.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4282LY9ZMJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Applications/SwiftProjects/My/Office/lumberJack/lumberJack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Woodmen Bananza";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannastn.lumberJack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = lumberjackpp;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849998CB2AA09D5400482470 /* Build configuration list for PBXProject "lumberJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849998E52AA09D5600482470 /* Debug */,
+				849998E62AA09D5600482470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849998E72AA09D5600482470 /* Build configuration list for PBXNativeTarget "lumberJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849998E82AA09D5600482470 /* Debug */,
+				849998E92AA09D5600482470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849998C82AA09D5400482470 /* Project object */;
+}
